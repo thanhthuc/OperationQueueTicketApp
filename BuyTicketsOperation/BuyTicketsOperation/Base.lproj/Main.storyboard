@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BuyTicketsOperation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Customer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lu-Oa-pzW">
+                                <rect key="frame" x="20" y="64" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.012526221804104417" green="0.17276147934281813" blue="0.62781567258883242" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audrey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mo-tU-LzE">
+                                <rect key="frame" x="20" y="105" width="335" height="27.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <color key="textColor" red="0.012526221800000001" green="0.17276147929999999" blue="0.62781567260000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5X-FV-II1">
+                                <rect key="frame" x="20" y="152.66666666666666" width="335" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.59871212510000005" blue="0.2589794936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="cUi-ky-i7S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Buy Tickets">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FpN-SM-Djj">
+                                <rect key="frame" x="20" y="212.66666666666666" width="335" height="365.33333333333337"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="263-ZC-YsX">
+                                <rect key="frame" x="18" y="658" width="339" height="31"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sn8-hp-MgY">
+                                <rect key="frame" x="20" y="598" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="MSu-rx-Bbl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" red="1" green="0.017274731293068779" blue="0.20522121290341799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8p-lr-sgW">
+                                <rect key="frame" x="20" y="708" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jxl-0q-D2U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <state key="normal" title="Reset Ticket"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sn8-hp-MgY" firstAttribute="trailing" secondItem="FpN-SM-Djj" secondAttribute="trailing" id="6IM-dL-rP2"/>
+                            <constraint firstItem="FpN-SM-Djj" firstAttribute="trailing" secondItem="X5X-FV-II1" secondAttribute="trailing" id="8yw-NF-6DE"/>
+                            <constraint firstItem="X5X-FV-II1" firstAttribute="leading" secondItem="9mo-tU-LzE" secondAttribute="leading" id="9xb-ir-N1w"/>
+                            <constraint firstItem="9mo-tU-LzE" firstAttribute="top" secondItem="1Lu-Oa-pzW" secondAttribute="bottom" constant="20" id="Cg4-W6-L1k"/>
+                            <constraint firstItem="X8p-lr-sgW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JC4-Cg-qFa"/>
+                            <constraint firstItem="263-ZC-YsX" firstAttribute="leading" secondItem="Sn8-hp-MgY" secondAttribute="leading" id="Ms8-Iu-t0L"/>
+                            <constraint firstItem="FpN-SM-Djj" firstAttribute="leading" secondItem="X5X-FV-II1" secondAttribute="leading" id="N8T-U0-ycV"/>
+                            <constraint firstItem="9mo-tU-LzE" firstAttribute="trailing" secondItem="1Lu-Oa-pzW" secondAttribute="trailing" id="Slq-cn-OZi"/>
+                            <constraint firstItem="9mo-tU-LzE" firstAttribute="leading" secondItem="1Lu-Oa-pzW" secondAttribute="leading" id="Stp-Wn-yZ2"/>
+                            <constraint firstItem="X5X-FV-II1" firstAttribute="top" secondItem="9mo-tU-LzE" secondAttribute="bottom" constant="20" id="Sxe-cE-4Dh"/>
+                            <constraint firstItem="Sn8-hp-MgY" firstAttribute="top" secondItem="FpN-SM-Djj" secondAttribute="bottom" constant="20" id="UGe-5z-M5Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X8p-lr-sgW" secondAttribute="trailing" constant="20" id="a7s-fQ-jW8"/>
+                            <constraint firstItem="263-ZC-YsX" firstAttribute="trailing" secondItem="Sn8-hp-MgY" secondAttribute="trailing" id="bXP-rX-kMc"/>
+                            <constraint firstItem="1Lu-Oa-pzW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="blY-3Z-P55"/>
+                            <constraint firstItem="FpN-SM-Djj" firstAttribute="top" secondItem="X5X-FV-II1" secondAttribute="bottom" constant="20" id="d9D-y6-SWl"/>
+                            <constraint firstItem="1Lu-Oa-pzW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dhz-he-9HT"/>
+                            <constraint firstItem="X8p-lr-sgW" firstAttribute="top" secondItem="263-ZC-YsX" secondAttribute="bottom" constant="20" id="kTF-2O-JBh"/>
+                            <constraint firstItem="263-ZC-YsX" firstAttribute="top" secondItem="Sn8-hp-MgY" secondAttribute="bottom" constant="20" id="peG-iG-e1Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Lu-Oa-pzW" secondAttribute="trailing" constant="20" id="q9j-OX-JPW"/>
+                            <constraint firstItem="Sn8-hp-MgY" firstAttribute="leading" secondItem="FpN-SM-Djj" secondAttribute="leading" id="s0M-Il-DhQ"/>
+                            <constraint firstItem="X8p-lr-sgW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-30" id="uj5-iv-wBv"/>
+                            <constraint firstItem="X5X-FV-II1" firstAttribute="trailing" secondItem="9mo-tU-LzE" secondAttribute="trailing" id="vXA-wZ-zYo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="anphaSlider" destination="263-ZC-YsX" id="BOX-Ri-BkP"/>
+                        <outlet property="buyTicketButton" destination="X5X-FV-II1" id="idI-gq-s42"/>
+                        <outlet property="cancelButton" destination="Sn8-hp-MgY" id="sXB-og-xYS"/>
+                        <outlet property="customerNameLabel" destination="9mo-tU-LzE" id="QCL-9m-k4s"/>
+                        <outlet property="outputTextView" destination="FpN-SM-Djj" id="doN-MY-Fro"/>
+                        <outlet property="resetTicketButton" destination="X8p-lr-sgW" id="CXl-0U-EBl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.600000000000001" y="33.990147783251231"/>
+        </scene>
+    </scenes>
+</document>
