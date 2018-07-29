@@ -12,6 +12,7 @@ protocol BuyTicketsDelegate: class {
     func displayBuyTicketsResult(result: SimulationResult, waitUntilDone: Bool)
 }
 
+// Test 8
 // Test continue branch
 class BuyTicketsOperation: Operation {
     
