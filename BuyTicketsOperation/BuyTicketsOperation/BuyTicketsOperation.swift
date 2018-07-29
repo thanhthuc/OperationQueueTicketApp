@@ -22,6 +22,7 @@ class BuyTicketsOperation: Operation {
         self._customerName = customerName
     }
     
+    // Edit main func
     override func main() {
         print("RUN MAIN FUNCTION")
         var totalTime = 0.0
