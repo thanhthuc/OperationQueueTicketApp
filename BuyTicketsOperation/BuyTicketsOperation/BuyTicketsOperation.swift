@@ -23,6 +23,7 @@ class BuyTicketsOperation: Operation {
     }
     
     // Edit main func
+    // Add test for new branch 4
     override func main() {
         print("RUN MAIN FUNCTION")
         var totalTime = 0.0
