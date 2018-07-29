@@ -50,5 +50,8 @@ class BuyTicketsOperation: Operation {
         print("branch 2")
     }
     
+    func branch3() {
+        print("branch 3")
+    }
     
 }
