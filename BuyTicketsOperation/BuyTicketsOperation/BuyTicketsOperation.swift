@@ -23,6 +23,7 @@ class BuyTicketsOperation: Operation {
     }
     
     override func main() {
+        print("RUN MAIN FUNCTION")
         var totalTime = 0.0
         for _ in 0..<10 {
             if isCancelled {
@@ -36,6 +37,10 @@ class BuyTicketsOperation: Operation {
         DispatchQueue.main.async {
             self.delegate?.displayBuyTicketsResult(result: result, waitUntilDone: false)
         }
+    }
+    
+    override func start() {
+        print("RUN START FUNCTION")
     }
     
     

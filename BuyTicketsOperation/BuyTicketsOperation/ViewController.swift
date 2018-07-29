@@ -58,6 +58,7 @@ class ViewController: UIViewController {
                self.logResult(message: String.init(format: "%@ paid in %.02f seconds.", currentCustomerName, time))
             }
         }
+        
         buyTicketsOp.addObserver(self, forKeyPath: "isCancelled", options: .new, context: bridge(obj: currentCustomerName))
         payOp.addDependency(buyTicketsOp)
         
@@ -109,7 +110,8 @@ class ViewController: UIViewController {
 
 extension ViewController: BuyTicketsDelegate {
     func displayBuyTicketsResult(result: SimulationResult, waitUntilDone: Bool) {
-        
+        let outputString = "Bough for \(result.customerName) in \(result.simulationTime)"
+        logResult(message: outputString)
     }
 }
 
