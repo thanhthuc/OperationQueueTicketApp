@@ -25,6 +25,8 @@ class BuyTicketsOperation: Operation {
     // Add commit for new branch 5
     // Add test for new branch 4
     // Add comment for new branch 4
+    // Edit main func
+    // Add test for new branch 4
     override func main() {
         print("RUN MAIN FUNCTION")
         var totalTime = 0.0
@@ -42,6 +44,8 @@ class BuyTicketsOperation: Operation {
         }
     }
     
+    // New branch 2
+    // Add test new branch 3
     // TEST NEW BRANCH
     
     override func start() {
