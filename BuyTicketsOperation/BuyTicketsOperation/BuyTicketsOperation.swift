@@ -22,6 +22,8 @@ class BuyTicketsOperation: Operation {
         self._customerName = customerName
     }
     
+    
+    // Add test for new branch 4
     override func main() {
         print("RUN MAIN FUNCTION")
         var totalTime = 0.0
