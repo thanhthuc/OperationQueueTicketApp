@@ -24,14 +24,7 @@ class BuyTicketsOperation: Operation {
         self._customerName = customerName
     }
     
-    // Add commit for new branch 5
-    // Add test for new branch 4
-    // Add comment for new branch 4
-    // Edit main func
-    
-    // Test continue branch 4
-    // Add test for new branch 4
-    // BR 2
+    // THIS IS BRANCH 1
     override func main() {
         print("RUN MAIN FUNCTION")
         var totalTime = 0.0
@@ -48,10 +41,6 @@ class BuyTicketsOperation: Operation {
             self.delegate?.displayBuyTicketsResult(result: result, waitUntilDone: false)
         }
     }
-    
-    // New branch 2
-    // Add test new branch 3
-    // TEST NEW BRANCH
     
     override func start() {
         print("RUN START FUNCTION")
