@@ -23,6 +23,7 @@ class BuyTicketsOperation: Operation {
     }
     
     
+    // Test continue branch 4
     // Add test for new branch 4
     override func main() {
         print("RUN MAIN FUNCTION")
