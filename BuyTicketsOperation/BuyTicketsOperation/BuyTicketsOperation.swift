@@ -46,6 +46,9 @@ class BuyTicketsOperation: Operation {
         print("RUN START FUNCTION")
     }
     
+    func branch2() {
+        print("branch 2")
+    }
     
     
 }
