@@ -56,4 +56,8 @@ class BuyTicketsOperation: Operation {
         
     }
     
+    
+    func funcB() {
+        
+    }
 }
