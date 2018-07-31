@@ -24,6 +24,7 @@ class BuyTicketsOperation: Operation {
         self._customerName = customerName
     }
     
+    // THIS IS BRANCH 1
     override func main() {
         print("RUN MAIN FUNCTION")
         var totalTime = 0.0
@@ -50,6 +51,19 @@ class BuyTicketsOperation: Operation {
         // add to 2
     }
     
+    func branch3() {
+        print("branch 3")
+    }
+    
+    func branch5() {
+        
+    }
+    
+    
+    func master() {
+        // Create master func
+        // Create master func again
+    }
     
     
     func funcA() {
