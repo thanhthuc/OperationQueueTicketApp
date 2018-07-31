@@ -73,6 +73,6 @@ class BuyTicketsOperation: Operation {
     
     
     func funcB() {
-        
+        // Edit B
     }
 }
