@@ -65,4 +65,9 @@ class BuyTicketsOperation: Operation {
         // Create master func again
     }
     
+    
+    func funcA() {
+        
+    }
+    
 }
