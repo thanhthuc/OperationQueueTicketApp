@@ -64,6 +64,7 @@ class BuyTicketsOperation: Operation {
         // Create master func
         // Create master func again
         // Edit master
+        // Edit master 2
     }
     
     
